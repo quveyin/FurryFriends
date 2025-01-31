@@ -1,66 +1,78 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FurryFriends - Ana Sayfa</title>   
+    <title>Google 1998</title>
     <style>
+        /* Sayfanın tamamını ortalamak için */
         body {
-            background-color: antiquewhite;
+            text-align: center;
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
         }
-
-        h1, h2, h3, h4, h5, h6 {
-            color: rgb(49, 45, 39);
+        
+        /* Logonun görünümü */
+        .logo {
+            margin-top: 50px;
         }
-
-        nav {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #8b4513;
-            font-weight: bold;
-        }
-
-        .hero {
-            width: 100%;
-            max-width: 800px;
-            border-radius: 10px;
+        
+        /* Arama kutusu */
+        .search-container {
             margin-top: 20px;
+            background-color: grey;
         }
-
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
+        
+        .search-box {
+            width: 300px;
+            height: 25px;
+        }
+        
+        /* Butonlar */
+        .btn {
+           /* margin-top: 10px; */
+            background-color: grey;
+        }
+        
+        .btn input {
+            height: 30px;
+        }
+        
+        /* Alt kısım */
+        .footer {
+            margin-top: 50px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
+    
+    <!-- Google Logosu -->
+    <div class="logo">
+        <img src="https://www.google.com/logos/1998/googlebeta.jpg" alt="Google 1998 Logo">
+    </div>
+    
 
-    <nav>
-        <a href="index.html">Ana Sayfa</a>
-        <a href="hakkımızda.html">Hakkımızda</a>
-        <a href="ürün.html">Ürünler</a>
-    </nav>
-
-    <div class="content">
-        <h1>FurryFriends Dünyasına Hoş Geldiniz!</h1>
-        <p>
-            Çocukluğumuzdan beri peluşlar, en yakın dostlarımızdı.  
-            Bir gün, bu sevgiyi daha fazla insana ulaştırmak için yola çıktık.  
-            Amacımız, sadece oyuncak değil, anı biriktiren, güven veren ve doğayı koruma bilinci aşılayan peluşlar yaratmaktı.  
-            <strong>Her satın alımınızla, nesli tükenen hayvanlar için farkındalık projelerine destek oluyorsunuz.</strong>  
-        </p>
-        <h3>Keyifli alışverişler dileriz! 🧸💛</h3>
+    <!-- Arama Çubuğu -->
+    <div class="search-container">
+        <p>Search the web using Google!</p>
+        <input type="text" class="search-box">
+    </div>
+   
+    <!-- Butonlar -->
+    <div class="btn">
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm Feeling Lucky">
     </div>
 
+    <!-- Alt Kısım (Linkler) -->
+    <div class="footer">
+        <p>
+            <a href="#">Help!</a> - 
+            <a href="#">About Google!</a> - 
+            <a href="#">Company Info</a> - 
+            <a href="#">Google! Logos</a>
+        </p>
+    </div>
+    
 </body>
 </html>
